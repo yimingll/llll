@@ -1,0 +1,16 @@
+{
+  "width": 20,
+  "height": 20,
+  "tileWidth": 32,
+  "tileHeight": 32,
+  "contrast": 1,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255
+  },
+  "terrains": "~O3",
+  "events": [],
+  "scripts": [],
+  "objects": []
+}

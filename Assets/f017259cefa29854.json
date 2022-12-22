@@ -1,0 +1,141 @@
+{
+  "width": 64,
+  "height": 40,
+  "tileWidth": 32,
+  "tileHeight": 32,
+  "contrast": 1,
+  "ambient": {
+    "red": 255,
+    "green": 255,
+    "blue": 255
+  },
+  "terrains": "~ES#",
+  "events": [],
+  "scripts": [],
+  "objects": [
+    {
+      "class": "folder",
+      "name": "角色",
+      "expanded": true,
+      "hidden": true,
+      "locked": true,
+      "children": []
+    },
+    {
+      "class": "folder",
+      "name": "区域",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": []
+    },
+    {
+      "class": "folder",
+      "name": "光源",
+      "expanded": false,
+      "hidden": false,
+      "locked": false,
+      "children": []
+    },
+    {
+      "class": "folder",
+      "name": "动画",
+      "expanded": false,
+      "hidden": false,
+      "locked": false,
+      "children": []
+    },
+    {
+      "class": "folder",
+      "name": "粒子",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": []
+    },
+    {
+      "class": "folder",
+      "name": "视差图",
+      "expanded": true,
+      "hidden": true,
+      "locked": true,
+      "children": []
+    },
+    {
+      "class": "folder",
+      "name": "瓦片地图",
+      "expanded": true,
+      "hidden": false,
+      "locked": false,
+      "children": [
+        {
+          "class": "tilemap",
+          "name": "背景",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "8f30176a0cc17c61",
+          "tilesetMap": {
+            "2": "8df23317872cee01"
+          },
+          "shortcut": 1,
+          "layer": "background",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 40,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "#C###mG&#C#%##C###m1#C#%##C####C#%#d#C###k#C#%##C###mB#C#%##C###g#C#%#d#C###e#C#%#c#C###f#C#%#k#C###m.#C#%#e#C###m3#C#%##C###d#C#%#d#C###f#C#%#c#C###m:#C#%#f#C###f#C#%#d#C###m/#C#%##C###k#C#%##C###m1#C#%#l#C###m.#C#%##C###m/#C#%##C###m9#C#%#d#C###m6#C#%##C###m3#C#%##C###g#C#%#g#C###c#C#%#i#C###m9#C#%#c#C###m2#C#%##C####C#%#f#C###g#C#%#d#C####C#$##C####C#%##C###mD,#C#%#e#C###m0#C#%#c#C###mD0#C#%##C###m3#C#%#c#C###mD.#C#%##C###m5#C#%#c#C###m7#C#%##C###m7#C#%##C###k#C#%##C###j#C#%#c#C####C#%##C###c#C#%##C###m1#C#%##C###m5#C#%#m0#C###m1#C#%#c#C###m0#C#%#c#C###m3#C#%#c#C###m<#C#%##C###m4#C#%#c#C###m2#C#%##C###mD$#C#%##C###m.#C#%##C###m1#C#%##C###mD$#C#%##C###m.#C#%##C###m1#C#%#e#C###m2#C#%#c#C###m/#C#%##C###m/#C#%##C###m1#C#%##C###c#C#%#f#C###m4#C#%##C###h#C#%##C###f#C#%##C###h#C#%##C###m1#C#%##C###m?#C#%#e#C####C#%##C###e#C#%##C###h#C#%##C###m1#C#%##C###mD$#C#%##C###d#C#%##C###m:#C#%##C#$##C###mA#C#%##C####C#%##C###c#C#%##C###m;#C#%##C###l#C#%##C###m7#C#%#f#C###m9#C#%##C####C#%##C###l#C#%##C###k#C#%##C###i#C#%##C###e#C#%#h#C###m5#C#%##C####C#%##C###k#C#%##C###j#C#%##C###k#C#%#c#C###j#C#%#c#C###m3#C#%##C####C#%##C###h#C#%#c#C####C#%##C###d#C#%#g#C###m/#C#%##C####C#%##C###m<#C#%#c#C###f#C#%##C###c#C#%#g#C###m4#C#%##C####C#%#c#C###e#C#%#c#C###m6#C#%#c#C###f#C#%#d#C###c#C#%##C###m6#C#%##C###m@#C#%#c#C###e#C#%#d#C###d#C#%##C###m5#C#%##C###d#C#$##C###m>#C#%#c#C#$##C####C#%##C###c#C#%##C###d#C#%##C###m5#C#%##C###d#C#%##C###e#C#%##C###c#C#%##C###m7#C#%##C#$##C#%##C###h#C#%##C###m4#C#%##C###d#C#%##C###g#C#%#d#C###m7#C#%#c#C###i#C#%##C###m3#C#%##C###c#C#%#c#C###m@#C#%##C####C#%##C###i#C#%##C###m2#C#%##C#$##C#%#c#C###l#C#%#d#C###m3#C#%##C###d#C#%##C###h#C#%##C###m2#C#%#c#C###m0#C#%##C###m3#C#%##C###f#C#%##C###f#C#%##C###m2#C#%#c#C###m1#C#%##C###m1#C#%#c#C###l#C#%##C###m1#C#%#c#C###m3#C#%##C###l#C#%##C###c#C#%##C###m?#C#%##C###m3#C#%##C###m.#C#%#d#C###mH?",
+          "conditions": [],
+          "events": [
+            {
+              "type": "autorun",
+              "commands": []
+            }
+          ],
+          "scripts": []
+        },
+        {
+          "class": "tilemap",
+          "name": "中层",
+          "enabled": true,
+          "hidden": false,
+          "locked": false,
+          "presetId": "281b684589ba484d",
+          "tilesetMap": {
+            "1": "8df23317872cee01"
+          },
+          "shortcut": 2,
+          "layer": "foreground",
+          "order": 0,
+          "light": "global",
+          "blend": "normal",
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 40,
+          "anchorX": 0,
+          "anchorY": 0,
+          "offsetX": 0,
+          "offsetY": 0,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "opacity": 1,
+          "code": "~Y4#3'(#v#37'##37(#r#3'(#~D1#3'(#v#3;'##3;(#y#3'(#x#37'##37(#~?#37###37$#~>#3/###3/$#p#3;'##3;(#~?#3;###3;$#~>#33###33$#~D1#37%##37&#~D'#37'##37(#q#3'(#y#3/###3/$#r#3;%##3;&#s#37%##37&#r#37###37$#w#3/###3/$#v#3;'##3;(#t#37###37$#u#33###33$#z#3;%##3;&#r#3;###3;$#q#3'(#r#33###33$#~5#3;###3;$#~D'#3'(#~B#37%##37&#~6#37%##37&#w#3'(#~A#3;%##3;&#~6#3;%##3;&#~D8#37'##37(#u#37%##37&#r#3#'#c~D0#3;'##3;(#u#3;%##3;&#w#3'(#~DB#3'(#x#37'##37(#y#3#'#u#3+(#~D+#3;'##3;(#t#3+(#r#3#'#~DB#3#'#x#37%##37&#~5#3')#~D##3#'#w#3;%##3;&#|#3#'#c#3')#~D6#3+(#~4#3'(#~8#37'##37(#~D+#3'(#~8#3;'##3;(#u#3+(#c~6#3+(#w#3'(#~GB#37###37$##3#'#~D@#3;###3;$#~E/#3#'#x#37###37$#~DA#3;###3;$#~I0",
+          "conditions": [],
+          "events": [],
+          "scripts": []
+        }
+      ]
+    }
+  ]
+}
